@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Mundo a Color</title>
-    {!! Html::style('css/bootstrap.min.css') !!}
-    {!! Html::style('css/docs.min.css') !!}
-    {!! Html::style('css/styles.css') !!}
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/docs.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700">
 </head>
 <body>
@@ -60,21 +60,15 @@
             </div>
         </nav>
     </footer>
-  {!! Html::script('js/jquery-1.11.3.min.js') !!}
-  {!! Html::script('js/bootstrap.min.js') !!}
-  {!! Html::script('js/jquery.parallax-scroll.min.js') !!}
-
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.parallax-scroll.min.js"></script>
     <script>
       $(function() {
         $(".bg-holder").parallaxScroll({
           friction: 0.5,
           direction: "vertical"
         });
-      });
-    </script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('.carousel').carousel();
       });
     </script>
 </body>
