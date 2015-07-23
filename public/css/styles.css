@@ -1,0 +1,158 @@
+body{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    background-color: #eee;
+    padding-top: 50px;
+}
+.nav li:hover{
+    border-bottom:2px solid #008000;
+}
+.navbar-nav > li > a:hover{
+    color:#fff;
+}
+.logo{
+    width:50px;
+}
+.Portada{
+    background:#000;
+    background:url("../imgs/slider1.jpg");
+    background-size:cover;
+    height:200px;
+}
+.Portada-container-logo{
+    padding:0;
+}
+.Portada-frase{
+    color:#fff;
+    display:inline-block;
+    font-family:'Satisfy' cursive;font-size:5em;
+    padding-top:130px;
+    text-align:center;
+    margin:0 auto;
+}
+.Portada-logo{
+    position:absolute;
+    top:40px;
+    left:15px;
+    width:80px
+}
+.Work{
+    margin-top: 2em;
+}
+.Work-article{
+    height: 250px;
+}
+.titulo-centrado{
+    text-align: center;
+}
+.texto-justificado{
+    text-align: justify;
+}
+.centrar{
+    margin: 0 auto;
+}
+@media (min-width:768px){
+    .navbar-nav{
+        float:none;
+        margin:0 auto;
+        display:table;
+        table-layout:fixed;
+    }
+}
+.navbar{
+    margin-bottom:0;
+}
+.nav{
+    text-align:center;
+}
+@media screen and (min-width:1000px){
+    .Portada{
+        height:500px;
+    }
+    .Portada-frase{
+        padding-top:10em;
+        font-size:25px;
+        font-weight:bold;
+    }
+    .Portada-logo{
+        width:200px;
+    }
+}
+.img-circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.bg-holder {
+  background:#000;
+  background:url("../imgs/pic2.jpg");
+  background-size:cover;
+  height:500px;
+}
+.bg-holder .content {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Content */
+
+.content h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+/* Intro */
+
+.intro h1 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+.intro p {
+  margin: 0;
+  font-size: 24px;
+}
+
+.cta {
+  margin-top: 32px;
+}
+
+.btn-cta {
+  color: #fff;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 0 4px;
+  text-decoration: none;
+}
+
+.btn-cta:hover {
+  background-color: white;
+  color: #228B22;
+  text-decoration: none;
+}
+
+.row-fluid {
+    width: 100%;
+}
+.thumbnail {
+    width: 260px;
+    height: 180px;
+    overflow: hidden; /* contain images within thumbnail boundaries */
+    border: 0 none; /* removes Bootstrap's default border */
+    box-shadow: 0 12px 12px -10px #c4c4c4;
+    -webkit-box-shadow: 0 17px 22px -20px #c4c4c4;
+    -moz-box-shadow: 0 12px 12px -10px #c4c4c4;
+}
+.thumbnail img { width:100%; height:auto; } /* to keep proportions */
+.thumbnails p { text-align: center; padding: 10px; } /* captions can be styled with an inline element */
